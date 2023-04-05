@@ -5,3 +5,7 @@ export const goToSignUpPage = (navigate) => {
 export const goToLoginPage = (navigate) => {
     navigate("/")
 }
+
+export const goToPostsPage = (navigate) => {
+    navigate("/posts")
+}

@@ -4,6 +4,7 @@ import {SignUpPage} from '../pages/SignUpPage'
 import {PostsPage} from '../pages/PostsPage'
 import {ErrorPage} from '../pages/ErrorPage'
 import { PhoneHeader } from "../components/PhoneHeader";
+import { PhoneFooter } from "../components/PhoneFooter";
 
 export function Router () {
 
@@ -16,6 +17,7 @@ export function Router () {
             <Route path="/posts" element={< PostsPage />}/>
             <Route path="*" element={< ErrorPage />}/>
         </Routes>
+        <PhoneFooter />
         </BrowserRouter>
     )
 }

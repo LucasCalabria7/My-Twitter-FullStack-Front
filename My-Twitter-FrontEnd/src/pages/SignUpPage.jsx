@@ -28,7 +28,7 @@ const navigate = useNavigate()
                     </PrivacyLink>
                     <Label htmlFor="check" >
                     <InputCheckbox type='checkbox' id='check' />
-                    Eu concordo em receber emails sobre coisas legais no Labeddit
+                    Eu concordo em receber emails sobre coisas legais no MyTwitter
                     </Label>
                 </TermsArea>
                 <img src={SignUpButton} alt='signup' onClick={()=> goToPostsPage(navigate)} />
